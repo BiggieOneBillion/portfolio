@@ -33,19 +33,19 @@ export const data = [
         website: "https://raystore-blush.vercel.app/",
       },
     },
-    {
-      name: "Logistics Car Hire (React Js + SuparBase)",
-      description:
-        "A website for hiring luxury vehicles. Where luxury car owners meet client that want to rent ",
-      stack: [
-        "Next Js",
-        "Framer Motion",
-        "Axios",
-       ,
-      ],
-      links: {
-        website: "https://luxuryrentalservice.vercel.app/",
-        github: "",
-      },
-    },
+    // {
+    //   name: "Logistics Car Hire (React Js + SuparBase)",
+    //   description:
+    //     "A website for hiring luxury vehicles. Where luxury car owners meet client that want to rent ",
+    //   stack: [
+    //     "Next Js",
+    //     "Framer Motion",
+    //     "Axios",
+    //    ,
+    //   ],
+    //   links: {
+    //     website: "https://luxuryrentalservice.vercel.app/",
+    //     github: "",
+    //   },
+    // },
   ];
