@@ -33,6 +33,22 @@ export const data = [
         website: "https://raystore-blush.vercel.app/",
       },
     },
+    {
+      name: "Study Guild (Next.js)",
+      description:
+        "I created this website to serve as a study guild to help my student learning Web development. It contains exercises and quizes and videos, so that at anytime the student can always reference it for some information. To login use the email--'student@gmail.com' and password--'student' all in lowercase",
+      stack: [
+        "React Js",
+        "React-Router-Dom",
+        "React-Icons",
+        "Axios",
+       ,
+      ],
+      links: {
+        website: "https://tutor-assistance.vercel.app/",
+        github: "",
+      },
+    },
     // {
     //   name: "Logistics Car Hire (React Js + SuparBase)",
     //   description:
