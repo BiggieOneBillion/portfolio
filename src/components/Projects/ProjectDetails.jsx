@@ -29,12 +29,14 @@ const ProjectDetails = ({ datum }) => {
       </div>
       <div className="lg:w-[300px] flex flex-col items-start justify-center gap-2 pl-10 border-black font-mono py-4 text-sm text-black capitalize ">
         <a
+          target="_blank"
           href={datum.links.github}
           className="github-link underline-offset-2 underline cursor-pointer"
         >
           github link
         </a>
         <a
+          target="_blank"
           href={datum.links.website}
           className="actual-link underline-offset-2 underline cursor-pointer"
         >
