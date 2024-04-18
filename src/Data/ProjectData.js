@@ -52,7 +52,7 @@ export const data = [
     {
       name: "Logistics Car Hire (React Js + SuparBase)",
       description:
-        "A website for hiring luxury vehicles. Where luxury car owners meet client that want to rent ",
+        "A website for hiring luxury vehicles. ",
       stack: [
         "Next Js",
         "Framer Motion",
