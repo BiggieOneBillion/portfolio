@@ -30,7 +30,7 @@ export const data = [
       ],
       links: {
         github: "https://github.com/ray-BADA-1994/raystore",
-        website: "https://raystore-blush.vercel.app/",
+        website: "https://raystore-sandy.vercel.app/",
       },
     },
     {
