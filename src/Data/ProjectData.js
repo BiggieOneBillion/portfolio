@@ -27,6 +27,7 @@ export const data = [
         "Axios",
         "Tanstack Query",
         "External API",
+        "Paystack Integration"
       ],
       links: {
         github: "https://github.com/ray-BADA-1994/raystore",
@@ -52,7 +53,7 @@ export const data = [
     {
       name: "Logistics Car Hire (React Js + SuparBase)",
       description:
-        "A website for hiring luxury vehicles. ",
+        "A website for hiring luxury vehicles.(Still a work in progress) ",
       stack: [
         "Next Js",
         "Framer Motion",
