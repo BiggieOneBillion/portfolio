@@ -1,7 +1,7 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
 import { Link } from "react-router-dom";
-import { data } from "../../Data/ProjectData";
+import { data } from "../../data/ProjectData";
 import ProjectDetails from "./ProjectDetails";
 import { GrContactInfo } from "react-icons/gr";
 import { motion } from "framer-motion";

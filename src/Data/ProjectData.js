@@ -12,7 +12,7 @@ export const data = [
         "External API",
       ],
       links: {
-        github: "https://github.com/ray-BADA-1994/movieTv",
+        // github: "https://github.com/ray-BADA-1994/movieTv",
         website: "https://movie-tv-kappa.vercel.app/",
       },
     },
@@ -30,7 +30,7 @@ export const data = [
         "Paystack Integration"
       ],
       links: {
-        github: "https://github.com/ray-BADA-1994/raystore",
+        // github: "https://github.com/ray-BADA-1994/raystore",
         website: "https://raystore-sandy.vercel.app/",
       },
     },
@@ -47,7 +47,7 @@ export const data = [
       ],
       links: {
         website: "https://tutor-assistance.vercel.app/",
-        github: "",
+        // github: "",
       },
     },
     {
@@ -62,7 +62,7 @@ export const data = [
       ],
       links: {
         website: "https://luxury-logistics.vercel.app/",
-        github: "",
+        // github: "",
       },
     },
   ];
