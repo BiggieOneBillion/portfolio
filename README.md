@@ -18,7 +18,7 @@ Also for some of my backend projects i use C#, that is Asp.net.
 
 This portfolio was built using React
 
-From time to time i constantly update the project section of this pottfolio with new projects.
+From time to time i constantly update the project section of this portfolio with new projects.
 
 
 
