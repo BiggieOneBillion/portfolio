@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { skillsArr } from "../Data/HomeData";
+import { skillsArr } from "../data/HomeData";
 import { motion } from "framer-motion";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -36,7 +36,7 @@ const Home = ({ close }) => {
       follower.classList.remove("expand");
     };
 
-    document.addEventListener("mousemove",handleFollow);
+    document.addEventListener("mousemove", handleFollow);
 
     caption.addEventListener("mouseover", handleAddClassName);
 
@@ -62,7 +62,8 @@ const Home = ({ close }) => {
           </Link>
           <div className="home-content flex-1y lg:h-full  flex flex-col justify-center space-y-5 lg:space-y-10">
             <h1 className="my-name w-fit font-light text-base text-[rgba(255,255,255,0.7)]  md:text-white border border-[rgba(255,255,255,0.2)] md:border-white px-2 py-1">
-              Chinwendu Chukwu<span className="font-semibold"> - Full Stack Developer</span>
+              Chinwendu Chukwu
+              <span className="font-semibold"> - Full Stack Developer</span>
             </h1>
             <div className={`first-introduction`}>
               <p className="font-medium md:text-2xl md:leading-[28px] text-[rgba(255,255,255,0.7)] flex lg:hidden flex-col gap-1 md:gap-2">

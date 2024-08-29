@@ -4,16 +4,17 @@ import { Link } from "react-router-dom";
 import ProjectDetails from "./ProjectDetails";
 import { GrContactInfo } from "react-icons/gr";
 import { motion } from "framer-motion";
-import { data } from "../../data/ProjectData";
+import { data } from "../../data/project-data/ProjectData";
 
 const Projects = ({ toggle }) => {
-  
   return (
-    <div id="projects" className="bg-white h-[100vh] py-20 w-full flex justify-center items-center">
+    <div
+      id="projects"
+      className="bg-white h-[100vh] py-20 w-full flex justify-center items-center"
+    >
       <div className="space-y-10 md:mx-5 lg:mx-0">
         <div onClick={() => toggle()}>
           <motion.span
-            
             whileTap={{ scale: 0.9 }}
             className="info-icon lg:hidden text-3xl h-[50px] w-[50px] flex justify-center items-center rounded-full border"
           >
