@@ -15,6 +15,16 @@ body{
   position: relative;
 }
 
+/* hide scrollbar */
+.hide-scrollbar {
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
 /* navigation */
 /* about-me-link */
 .about-link {
@@ -125,8 +135,6 @@ body{
       /* display: none; */
     }
   }
-
- 
 
   #follower.expand {
       width: 50px;

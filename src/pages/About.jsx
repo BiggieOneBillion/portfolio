@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const AboutPage = () => {
   return (
     <div className="min-h-screen md:h-screen w-screen bg-black flex justify-center md:items-center text-[rgba(255,255,255,0.5)] relative overflow-auto pt-5 pb-10 md:pb-0 ">
-      <div className="flex h-[800px] overflow-y-scroll flex-col justify-start lg:border p-5 pb-0 mt-20y md:pt-0 md:w-[500px]">
+      <div className="flex h-[800px] hide-scrollbar overflow-y-scroll flex-col justify-start lg:border p-5 pb-0 mt-20y md:pt-0 md:w-[500px]">
         <Link
           to={"/"}
           className="text-sm text-[rgba(255,255,255,0.7)] about-link w-fit mb-10 md:hidden "
